@@ -9,7 +9,7 @@ test("HealthCheck API call", async ({ request }) => {
         if (time > 2000) {
             throw new error(`API is slow ${time}`)
         } else {
-            console.log(`total duration time ${time}`)
+            console.log(`total duration time : ${time}`)
         }
         const getstatus = await getresponse.status()
         console.log(`Response code from API ${getstatus}`)
