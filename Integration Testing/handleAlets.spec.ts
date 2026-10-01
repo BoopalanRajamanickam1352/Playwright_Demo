@@ -26,6 +26,4 @@ test.describe("How to handle Alerts", async () => {
         await browser.close();
     });
 
-    //done
-
 })
