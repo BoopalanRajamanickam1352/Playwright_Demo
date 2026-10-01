@@ -10,7 +10,11 @@ test.describe("How to handle Alerts", async () => {
         await page.goto("https://letcode.in/alert")
     })
 
+<<<<<<< HEAD
     test("Handle dialogs", async () => {
+=======
+    test("Handle dialogs 1", async () => {
+>>>>>>> feature/E2E-test
         const element = await page.$("#prompt");
         page.on("dialog", async (dialog) => {
             console.log('Message : ' + dialog.message())
