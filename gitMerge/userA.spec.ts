@@ -5,7 +5,9 @@ test.describe("How to handle Alerts", async () => {
     let page: Page
 
     test("Login test", async ({ page }) => {
-        console.log("User B");
+
+        console.log("User B1");
+
     });
 
 })
