@@ -7,7 +7,7 @@ test("HealthCheck API call", async ({ request }) => {
         const endtime = Date.now();
         const time = endtime - starttime
         if (time > 2000) {
-            throw new error(`API is slow ${time}`)
+            throw new Error(`API is slow ${time}`)
         } else {
             console.log(`total duration time : ${time}`)
         }

@@ -1,1 +1,1 @@
-console.log("userA Merge conflicts")
+console.log("userB Merge conflicts")
