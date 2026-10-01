@@ -28,6 +28,7 @@ test.describe("How to handle Alerts", async () => {
     test.afterAll(async () => {
         await page.close();
         await browser.close();
+        console.log("conflict A from user A")
     });
 
 })
