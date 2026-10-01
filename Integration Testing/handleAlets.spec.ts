@@ -10,7 +10,7 @@ test.describe("How to handle Alerts", async () => {
         await page.goto("https://letcode.in/alert")
     })
 
-    test("Handle dialogs", async () => {
+    test("Handle dialogs 1", async () => {
         const element = await page.$("#prompt");
         page.on("dialog", async (dialog) => {
             console.log('Message : ' + dialog.message())
@@ -25,7 +25,5 @@ test.describe("How to handle Alerts", async () => {
         await page.close();
         await browser.close();
     });
-
-    //done
 
 })
