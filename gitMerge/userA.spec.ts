@@ -5,11 +5,8 @@ test.describe("How to handle Alerts", async () => {
     let page: Page
 
     test("Login test", async ({ page }) => {
-<<<<<<< HEAD
         console.log("User B");
-=======
         console.log("User A");
->>>>>>> ed724543523241f88a81a921f4ec34376e341b92
     });
 
 })
