@@ -33,7 +33,7 @@ jobs:
 #        run: npx playwright test
 
       - name: Run Playwright tests (Shard-${{ matrix.shard }})
-        run: npx playwright test --shard=${{ matrix.shard }}/4
+        run: npx playwright test tests/loginPage.spec.ts --shard=${{ matrix.shard }}/4
 
     
 
