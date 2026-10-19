@@ -5,9 +5,12 @@ test.describe("How to handle Alerts", async () => {
     let page: Page
 
     test("Login test", async ({ page }) => {
-
         console.log("User B1");
         console.log("User B1 Merge conflicts")
+        console.log("User B");
+        console.log("User A");
+        console.log("User A1");
+        console.log("User A1 Merge conflicts")
 
     });
 
